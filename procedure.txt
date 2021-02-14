@@ -1,4 +1,4 @@
-instalation qt-designer et pycharm, nouvelle version
+instalation qt-designer et pycharm avec les nouvelles versions:
 
 installation des modules : pyqt5,pyqt5-tools
 (windos) commande pip (une seule des deux commande fonctionne): 
@@ -10,16 +10,16 @@ installation de pycharm (community edition) sur le site :
 https://www.jetbrains.com/pycharm/download/#section=windows
 
 dans pycharm:
-creer un nouveau projet, allez dans les options du projets 
+crez un nouveau projet, allez dans les options du projet 
 dans la rubrique: Project:"NomDeVotreProjet"
 selectionner Python Interpreter
-cliquer sur le plus en bas du tableau
-ajouter alors les packages : pyqt5,pyqt5-tools et pyqt5-sip
+cliquer sur le + en bas a gauche du tableau
+ajoutez alors les packages : pyqt5,pyqt5-tools et pyqt5-sip
 
-dans vos fichier trouver designer.exe :
+dans vos fichier trouvez designer.exe :
 C:\"Users"\Elève\AppData\Local\Programs\Python\Python39\Lib\site-packages\qt5_applications\Qt\bin\designer.exe
-     ^^                  1*                        ^^
- 1* à remplacer par votre chemin d'installation de python 
+     ^^                                              ^^
+ à remplacer par votre chemin d'installation de python 
 pour le trouver ouvrer un console python, et executer le script suivant
 
 import sys
@@ -27,17 +27,18 @@ sys.path
 
 noter bien le chemin d'acces a designer.exe
 
-on crée les deux outils dans pycharm :
+on crez les deux outils dans pycharm :
 dans votre projet pycharm allez dans settings,Tools,External Tools
 
 premier outil : QTdesigner
 
-cliquer sur le plus pour creer un nouvel outil :
+cliquez sur le plus pour creer un nouvel outil :
 Name: QTdesigner
-plus bas dans tools settings, 
+plus bas dans Tools settings, 
 program : le chemin d'accer de designer.exe
 working directory: $ProjectFileDir$
 cliquer sur ok
+
 
 second outil: PyUIC (a.k.a. la moulinette)
 
