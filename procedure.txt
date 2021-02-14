@@ -25,7 +25,7 @@ pour le trouver ouvrer un console python, et executer le script suivant
 import sys
 sys.path
 
-noter bien le chemin d'acces a designer.exe
+noter bien le chemin d'acces à designer.exe, votre path doit finir par "\designer.exe"
 
 on crez les deux outils dans pycharm :
 dans votre projet pycharm allez dans settings,Tools,External Tools
@@ -35,7 +35,7 @@ premier outil : QTdesigner
 cliquez sur le plus pour creer un nouvel outil :
 Name: QTdesigner
 plus bas dans Tools settings, 
-program : le chemin d'accer de designer.exe
+program : le chemin d'accer de designer.exe (votre path doit finir par "\designer.exe")
 working directory: $ProjectFileDir$
 cliquer sur ok
 
