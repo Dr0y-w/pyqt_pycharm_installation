@@ -3,5 +3,4 @@ python -m pip install --upgrade pip #upgrade pip
 foctionne
 python -m pip install -U package #install package
 fonctionne
-python -m pip install package #censé marché d'apres la documentation
-commande python ? 
+python -m pip install package #install package
